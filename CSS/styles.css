@@ -32,8 +32,16 @@
     margin: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
+}
+.form{
+    background-image: url(../Assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    height: 50vh;
 }
 .form_names{
     display: flex;

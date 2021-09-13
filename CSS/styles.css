@@ -1,6 +1,8 @@
 *{
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    margin: 0px;
+    overflow-x: hidden;
 }
 .home-page{
     background-image: url(../Assets/backgrounds/h_img.jpg);
@@ -21,4 +23,8 @@
     height: 50vh;
     background-position: center;
     background-size: cover;
+}
+.what-we-do{
+    display: flex;
+    justify-content: space-evenly;
 }

@@ -35,3 +35,15 @@
     flex-wrap: wrap;
     position: relative;
 }
+.form_names{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-field-1{
+    width: 50vw;
+    text-align: center;
+}
+.form-field-2{
+    width: 50vw;
+    text-align: center;
+}

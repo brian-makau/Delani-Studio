@@ -9,9 +9,16 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     color: white;
 }
 .home-text{
     margin-top: 80px;
+}
+.services{
+    background-image: url(../Assets/backgrounds/s_image.jpg);
+    color: white;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
 }

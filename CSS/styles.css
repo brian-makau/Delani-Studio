@@ -28,3 +28,10 @@
     display: flex;
     justify-content: space-evenly;
 }
+.portfolio-img{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}

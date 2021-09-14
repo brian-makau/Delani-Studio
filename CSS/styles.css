@@ -41,17 +41,26 @@
     display: flex;
     justify-content: space-evenly;
 }
+.design {
+    max-width: 30vw;
+    min-width: 20vw;
+}
 .design p{
     display: none;
-    cursor: pointer;
+}
+.development {
+    max-width: 30vw;
+    min-width: 20vw;
 }
 .development p{
     display: none;
-    cursor: pointer;
+}
+.management {
+    max-width: 30vw;
+    min-width: 20vw;
 }
 .management p{
     display: none;
-    cursor: none;
 }
 .portfolio-img{
     margin-top: 30px;

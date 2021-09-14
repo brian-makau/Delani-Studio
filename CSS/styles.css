@@ -4,6 +4,9 @@
     margin: 0px;
     overflow-x: hidden;
 }
+.home-logo{
+    margin-top: 300px;
+}
 .home-page{
     background-image: url(../Assets/backgrounds/h_img.jpg);
     height: 100vh;
@@ -15,7 +18,7 @@
     color: white;
 }
 .home-text{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .services{
     background-image: url(../Assets/backgrounds/s_image.jpg);
@@ -54,4 +57,8 @@
 .form-field-2{
     width: 50vw;
     text-align: center;
+}
+.footer-cont{
+    margin-top: 30px;
+    margin: 30px;
 }

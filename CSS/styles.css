@@ -31,8 +31,20 @@
     display: flex;
     justify-content: space-evenly;
 }
+.design p{
+    display: none;
+    cursor: pointer;
+}
+.development p{
+    display: none;
+    cursor: pointer;
+}
+.management p{
+    display: none;
+    cursor: none;
+}
 .portfolio-img{
-    margin: 10px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -53,18 +65,27 @@
 .form-field-1{
     width: 25vw;
     text-align: left;
-    margin-left: 250px;
+    margin-left: 350px;
+    background: transparent;
+    border: solid white 1px;
 }
 .form-field-2{
     width: 25vw;
     text-align: left;
-    margin-right: 250px;
+    margin-right: 300px;
+    background: transparent;
+    border: solid white 1px;
 }
 .form_message{
     width: 50vw;
     height: 30vh;
+    background: transparent;
+    color:white;
+    font-weight: 700;
+    border: solid white 1px;
+    margin-top: 20px;
 }
-#footer-cont{
+.socials{
     margin-top: 50px;
 }
 footer{
@@ -72,4 +93,7 @@ footer{
 }
 .delani-footer{
     margin-top: 50px;
+}
+.portfolio {
+margin-bottom: 20px;
 }

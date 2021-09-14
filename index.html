@@ -94,16 +94,32 @@
         <div>
                 <h1>PORTFOLIO</h1>
         </div>
-        <div class="grid">
-            <img src="/Assets/portfolio/work4.jpg" alt="work4">
-            <img src="/Assets/portfolio/work3.jpg" alt="work3">
-            <img src="/Assets/portfolio/work2.jpg" alt="work2">
-            <img src="/Assets/portfolio/work1.jpg" alt="work1">
-            <img src="/Assets/portfolio/work5.jpg" alt="work5">
-            <img src="/Assets/portfolio/work6.jpg" alt="work6">
-            <img src="/Assets/portfolio/work7.jpg" alt="work7">
-            <img src="/Assets/portfolio/work8.jpg" alt="work8">
-        </div>
+            <div class="container">
+                <div class="col-md-5">
+                    <img src="/Assets/portfolio/work4.jpg" alt="work4">
+                </div>
+                <div class="col-md-5">
+                    <img src="/Assets/portfolio/work3.jpg" alt="work3">
+                </div>
+                <div class="col-md-5">
+                    <img src="/Assets/portfolio/work2.jpg" alt="work2">
+                </div>
+                <div class="col-md-5">
+                    <img src="/Assets/portfolio/work1.jpg" alt="work1">
+                </div>
+                <div>
+                    <img src="/Assets/portfolio/work5.jpg" alt="work5">
+                </div>
+                <div class="col-md-5">
+                    <img src="/Assets/portfolio/work6.jpg" alt="work6">
+                </div>
+                <div class="col-md-5">
+                    <img src="/Assets/portfolio/work7.jpg" alt="work7">
+                </div>
+                <div class="col-md-5">
+                    <img src="/Assets/portfolio/work8.jpg" alt="work8">
+                </div>
+            </div>
 
         <!--The Contact page-->
         <div class="form">
@@ -113,15 +129,15 @@
             <div>
                 <form>
                     <div class="form_names">
-                        <div class="form-field-1">
-                            <input type="text" placeholder="Name...">
+                        <div>
+                            <input type="text" class="form-field-1" placeholder="Name...">
                         </div>
-                        <div class="form-field-2">
-                            <input type="email" placeholder="Email...">
+                        <div>
+                            <input type="email" class="form-field-2" placeholder="Email...">
                         </div>
                     </div>
-                    <div class="form_message">
-                        <textarea name="message" id="message" placeholder="Your message here..."></textarea>
+                    <div>
+                        <textarea name="message" class="form_message" id="message" placeholder="Your message here..."></textarea>
                     </div>
                 </form>
             </div>
@@ -131,7 +147,7 @@
    </main>
 
    <footer>
-       <span class="footer-cont">
+       <span id="footer-cont">
            <img src="/Assets/Social icons/twitter.png" alt="twitter">
            <img src="/Assets/Social icons/dribble.png" alt="dribble">
            <img src="/Assets/Social icons/facebook.png" alt="facebook">
@@ -142,10 +158,11 @@
            <img src="/Assets/Social icons/pinterest.png" alt="pinterest">
            <img src="/Assets/Social icons/flickr.png" alt="flicker">
         </span>
+        <div class="delani-footer">
+            <h5>DELANI STUDIO</h5>
+        </div>
         <div>
-            <h5>DELANI STUDIO <br>
-                2019
-            </h5>
+            <h5 class="year-footer">2019</h5>
         </div>
    </footer>
 </body>

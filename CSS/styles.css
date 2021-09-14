@@ -51,14 +51,25 @@
     justify-content: space-evenly;
 }
 .form-field-1{
-    width: 50vw;
-    text-align: center;
+    width: 25vw;
+    text-align: left;
+    margin-left: 250px;
 }
 .form-field-2{
-    width: 50vw;
-    text-align: center;
+    width: 25vw;
+    text-align: left;
+    margin-right: 250px;
 }
-.footer-cont{
-    margin-top: 30px;
-    margin: 30px;
+.form_message{
+    width: 50vw;
+    height: 30vh;
+}
+#footer-cont{
+    margin-top: 50px;
+}
+footer{
+    height: 200px;
+}
+.delani-footer{
+    margin-top: 50px;
 }

@@ -23,6 +23,10 @@
 .mouse-click{
     margin-top: 150px;
 }
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .services{
     background-image: url(../Assets/backgrounds/s_image.jpg);
     color: white;
@@ -63,6 +67,10 @@
     background-position:center;
     position: relative;
     height: 50vh;
+    color: white;
+}
+.form-head {
+    margin-top: 45px;
 }
 .form_names{
     display: flex;
@@ -93,9 +101,6 @@
 }
 .socials{
     margin-top: 50px;
-}
-footer{
-    height: 200px;
 }
 .delani-footer{
     margin-top: 50px;

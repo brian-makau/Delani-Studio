@@ -20,12 +20,18 @@
 .home-text{
     margin-top: 60px;
 }
+.mouse-click{
+    margin-top: 150px;
+}
 .services{
     background-image: url(../Assets/backgrounds/s_image.jpg);
     color: white;
     height: 50vh;
     background-position: center;
     background-size: cover;
+}
+.services-head{
+    margin-top: 100px;
 }
 .what-we-do{
     display: flex;
@@ -44,7 +50,7 @@
     cursor: none;
 }
 .portfolio-img{
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;

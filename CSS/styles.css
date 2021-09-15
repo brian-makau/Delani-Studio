@@ -37,6 +37,10 @@
 .services-head{
     margin-top: 100px;
 }
+.what-head{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 .what-we-do{
     display: flex;
     justify-content: space-evenly;
@@ -69,6 +73,86 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
+}
+.grey{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
+}
+.ontario{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
+}
+.orange{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
+}
+.jim{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
+}
+.health{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
+}
+.mac{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
+}
+.burned{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 80px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
+}
+.giraffe{
+    position: absolute;
+    margin-bottom: 100px;
+    margin-left: px;
+    z-index: 10;
+    color: white;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 70px;
+    display: none;
 }
 .form{
     background-image: url(../Assets/backgrounds/c_image.jpg);

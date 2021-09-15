@@ -87,17 +87,17 @@
 .ontario{
     position: absolute;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 10px;
     z-index: 10;
     color: white;
     background-color: rgb(0, 0, 0,.2);
-    padding: 70px;
+    padding: 30px 5px 30px 5px;
     display: none;
 }
 .orange{
     position: absolute;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 35px;
     z-index: 10;
     color: white;
     background-color: rgb(0, 0, 0,.2);
@@ -107,7 +107,7 @@
 .jim{
     position: absolute;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 10px;
     z-index: 10;
     color: white;
     background-color: rgb(0, 0, 0,.2);
@@ -117,7 +117,7 @@
 .health{
     position: absolute;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 40px;
     z-index: 10;
     color: white;
     background-color: rgb(0, 0, 0,.2);
@@ -127,7 +127,7 @@
 .mac{
     position: absolute;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 10px;
     z-index: 10;
     color: white;
     background-color: rgb(0, 0, 0,.2);
@@ -137,21 +137,21 @@
 .burned{
     position: absolute;
     margin-top: 100px;
-    margin-left: 80px;
+    margin-left: 10px;
     z-index: 10;
     color: white;
     background-color: rgb(0, 0, 0,.2);
-    padding: 70px;
+    padding: 50px 20px 50px 20px;
     display: none;
 }
 .giraffe{
     position: absolute;
-    margin-bottom: 100px;
-    margin-left: px;
+    margin-top: 100px;
+    margin-left: 20px;
     z-index: 10;
     color: white;
     background-color: rgb(0, 0, 0,.2);
-    padding: 70px;
+    padding: 50px 30px 50px 30px;
     display: none;
 }
 .form{
